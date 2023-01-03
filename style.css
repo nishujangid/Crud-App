@@ -1,0 +1,69 @@
+body{
+    /* background-color: yellowgreen; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.java{
+    text-align: center;
+}
+label{
+    margin-left:30px;
+}
+input{
+    margin: 10px;
+    width: 250px;
+    height:30px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgb(143, 76, 211);
+    
+}
+input:hover{
+    background-color: rgb(178, 192, 164);
+}
+.table{
+    position:relative;
+    margin-left: 40%;
+    margin-top: -20%;
+                                                
+    
+
+
+
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: hsl(184, 41%, 73%);
+    border: 2px solid black;
+}
+th{
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border-style: none;
+} 
+#btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 0px 5px 10px rgb(143, 76, 211);
+    margin-left: 110px;
+
+}
+#btn:hover{ 
+    color: brown;
+}
+#name{
+    margin-left: 80px;
+}
+#email{
+    margin-left: 80px;
+}
+#number{
+    margin-left: 40px;
+}
+#message{
+    margin-left: 60px;
+}

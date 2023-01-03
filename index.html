@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD APP</title>
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="java"> <h1>JavaScript CRUD Appliction </h1></div>
+    <div class="form">
+        <form onsubmit="onFormSubmit()">
+            <div>
+                <label for="name"> Name </label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="number"> Mobile NO. </label>
+                <input type="text" name="number" id="number">
+            </div>
+
+            <div>
+                <label for="message"> Message </label>
+                <input type="message" name="message" id="message">
+            </div>
+            <div>
+                <input type="submit" value="Submit" id="btn">
+                <input type="reset" value="Reset" id="btn">
+            </div>
+
+        </form>
+    </div>
+<div class="table">
+<table id="storeList" border="1pc">
+    <thead >
+        <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>MOBILE</th>
+        <th>message</th>
+    </tr>
+    </thead>
+    <tbody>
+        <!--Insert Data Here-->
+    </tbody>
+</table>
+</div>
+</div>
+    
+<script src="script.js"></script>
+</body>
+</html>
